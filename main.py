@@ -5,7 +5,7 @@ from random import randint
 my_player = [0, 0, 20]
 
 init()
-window = display.set_mode((1000, 1000))
+window = display.set_mode((750, 750))
 clock = time.Clock()
 f = font.Font(None, 50)
 all_players = []
@@ -36,7 +36,7 @@ while running:
 
    window.fill((255, 255, 255))
    scale = max(0.3, min(50 / my_player[2], 1.5))
-   draw.circle(window, (0, 255, 0), (500, 500), int(my_player[2] * scale))
+   draw.circle(window, (0, 235, 255), (375, 375), int(my_player[2] * scale))
 
    to_remove = []
    for eat in eats:
