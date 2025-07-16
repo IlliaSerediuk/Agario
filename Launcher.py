@@ -1,6 +1,6 @@
 from customtkinter import*
 
-class ConneckWindow(CTk):
+class ConnectWindow(CTk):
     def __init__(self):
         
         super().__init__()
@@ -35,5 +35,3 @@ class ConneckWindow(CTk):
 
 
 
-win = ConneckWindow()
-win.mainloop()
