@@ -33,7 +33,7 @@ def handl_data():
                 continue
 
 Thread(target=handl_data, deamon=True).start()
-print("SERER running...")
+print("SERVER running...")
 while True:
     try:
         conn, adr = sock.accept()
